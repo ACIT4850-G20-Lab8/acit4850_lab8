@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE week SYSTEM 'schedule.dtd'>
+
+<week>
+    <times>
+        <start>1030</start>
+        <days type="tuesday">
+            <course type="acit">
+                <id>4620</id>
+                <name>Enterprise Systems Admin</name>
+                <crn>73667</crn>
+                <type>Lab</type>
+                <building>SE12</building>
+                <room>306</room>
+                <start>1030</start>
+                <end>1220</end>
+                <instructor>Bethany Edmunds</instructor>
+            </course>
+        </days>
+        <days type="wednesday">
+            <course type="acit">
+                <id>4660</id>
+                <name>Intro. to Bus. Intelligence</name>
+                <crn>80659</crn>
+                <type>Lab</type>
+                <building>SE12</building>
+                <room>306</room>
+                <start>1030</start>
+                <end>1220</end>
+                <instructor>Steve Fabiszewski</instructor>
+            </course>
+        </days>
+        <days type="thursday">
+            <course type="acit">
+                <id>4850</id>
+                <name>Integrative Prog and Tech</name>
+                <crn>73676</crn>
+                <type>Lab</type>
+                <building>SE12</building>
+                <room>320</room>
+                <start>1030</start>
+                <end>1220</end>
+                <instructor>James Parry</instructor>
+            </course>
+        </days>
+    </times>
+</week>

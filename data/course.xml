@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!-- picked ACIT4850 as to show course facets -->
+
+<!DOCTYPE week SYSTEM 'schedule.dtd'>
+
+<week>
+    <courses type="acit">
+            <id>4850</id>
+            <day type="wednesday">
+                <starttime type="1230">               
+                    <name>Integrative Prog and Tech</name>
+                    <crn>73674</crn>
+                    <type>Lecture</type>
+                    <building>SW3</building>
+                    <room>1750</room>
+                    <end>1420</end>
+                    <instructor>James Parry</instructor>
+                </starttime>
+            </day>
+            <day type="thursday">
+                <starttime type="1030">
+                    <name>Integrative Prog and Tech</name>
+                    <crn>73674</crn>
+                    <type>Lab</type>
+                    <building>SE12</building>
+                    <room>320</room>
+                    <end>1220</end>
+                    <instructor>James Parry</instructor>
+                </starttime>
+            </day>
+    </courses>
+</week>

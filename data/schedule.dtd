@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- weeks include 3 facets : days, courses, and times -->
+<!ELEMENT week (days*,courses*,times*)>
+<!-- A day has multiple courses(course with '+' sign)   -->
+<!ELEMENT days (course+)>
+<!-- A day can be monday tuesday wednesday thursday friday -->
+<!ATTLIST days
+    type (monday|tuesday|wednesday|thursday|friday) #REQUIRED
+>
+<!-- A time has only one in a weekday -->
+<!ELEMENT times (start,days+)>
+
+<!-- A course include info of a course -->
+<!ELEMENT course (id,name,crn,type,building,room,start,end,instructor)>
+<!ATTLIST course
+    type (acit|comp) #REQUIRED
+>
+<!-- course id -->
+<!ELEMENT id (#PCDATA)>
+<!-- course name -->
+<!ELEMENT name (#PCDATA)>
+<!-- crn number -->
+<!ELEMENT crn (#PCDATA)>
+<!-- course type include lab and lecture or others like tutorial-->
+<!ELEMENT type (#PCDATA)>
+<!-- building name -->
+<!ELEMENT building (#PCDATA)>
+<!-- room number -->
+<!ELEMENT room (#PCDATA)>
+<!-- start time of the class -->
+<!ELEMENT start (#PCDATA)>
+<!-- end time of the class -->
+<!ELEMENT end (#PCDATA)>
+<!-- instructor of the class -->
+<!ELEMENT instructor (#PCDATA)>
+
+<!-- courses element under root element week-->
+<!ELEMENT courses (id,day*)>
+<!ATTLIST courses 
+    type (acit|comp) #REQUIRED
+>
+<!ELEMENT day (starttime) >
+<!ATTLIST day
+    type (monday|tuesday|wednesday|thursday|friday) #REQUIRED
+>
+<!ELEMENT starttime (name,crn,type,building,room,end,instructor)>
+<!ATTLIST starttime
+    type (0830|0930|1030|1130|1230|1330|1430|1530|1630|1730) #REQUIRED
+>

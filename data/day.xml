@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE week SYSTEM 'schedule.dtd'>
+
+<week>
+    <days type="monday">
+        <course type="acit">
+            <id>4770</id>
+            <name>Legal and Ethical Issues in IT</name>
+            <crn>73673</crn>
+            <type>Tutorial</type>
+            <building>SE12</building>
+            <room>306</room>
+            <start>1330</start>
+            <end>1520</end>
+            <instructor>Trevor Lord</instructor>
+        </course>
+        <course type="acit">
+            <id>4910</id>
+            <name>DB Backup, Recovery and Tuning</name>
+            <crn>73680</crn>
+            <type>Lecture</type>
+            <building>SW9</building>
+            <room>206</room>
+            <start>1530</start>
+            <end>1620</end>
+             <instructor>Richard Chau</instructor>
+        </course>
+        <course type="acit">
+            <id>4650</id>
+            <name>Content Mgmt Systems Admin</name>
+            <crn>80654</crn>
+            <type>Lecture</type>
+            <building>SE6</building>
+            <room>205</room>
+            <start>1630</start>
+            <end>1720</end>
+            <instructor>Medhat Elmasry</instructor>
+        </course>
+    </days>
+</week>

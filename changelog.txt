@@ -1,0 +1,7 @@
+Newest changes at top:
+
+3/7/2016 10:17 PM: Updated schedule.dtd and added time.xml
+3/7/2016 06:23 PM: Revised schedule.dtd, day.xml, and added course.xml
+3/7/2016 05:49 PM: Added data folder with schedule.dtd and day.xml
+3/3/2106 12:08 PM: Added CodeIgniter starter files
+3/3/2016 11:56 AM: Updated readme.md and added changelog.txt

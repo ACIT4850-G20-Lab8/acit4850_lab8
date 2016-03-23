@@ -73,7 +73,7 @@ class Timetable extends CI_Model {
 
     function facetTime(){
         foreach ($this->xml->times as $onetime){
-            $this->daytype = (string) $onetime->daysd['type'];
+            $this->daytype = (string) $onetime->days['type'];
             foreach ($this->xml->times->days->course as $onecourse) {
                 $this->bytime[] = new Booking($onecourse, $this->daytype, $onecourse->start,  $this->id);
             }
